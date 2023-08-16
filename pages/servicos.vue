@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header :title="'Empresa'" />
+    <Header :title="'Serviços'" />
 
     <div class="p-4">
-      <h2>Empresa</h2>
+      <h2>Serviços</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo
         libero, harum, neque provident dolores itaque in minima eos voluptatibus
