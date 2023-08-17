@@ -1,8 +1,6 @@
 <template>
   <div>
-    <Header :title="'Produtos'"/>
-
-    <div class="p-4">
+    <div>
       <h2>Produtos A</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo

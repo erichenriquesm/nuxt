@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Header :title="'Produtos'"/>
+    <!-- <Header :title="'Produtos'"/> -->
 
-    <div class="p-4">
+    <div>
       <h2>Produtos</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo
@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import Header from '~/components/Header.vue';
 export default {
-  components: { Header },};
+  layout:'teste'
+};
 </script>
 
 <style>
