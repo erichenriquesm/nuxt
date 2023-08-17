@@ -5,10 +5,8 @@
     <div>
       <h2>Produtos</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo
-        libero, harum, neque provident dolores itaque in minima eos voluptatibus
-        quidem blanditiis quaerat! Aliquam voluptatibus esse facilis enim, eius
-        voluptatem!
+        
+        {{ JSON.stringify(paises) }}
       </p>
     </div>
   </div>
@@ -16,7 +14,18 @@
 
 <script>
 export default {
-  layout:'teste'
+  data(){
+    return {
+
+    }
+  },
+  async asyncData({ $axios }){
+    const paises = await $axios.$get("https://restcountries.com/v3.1/all");
+    return {
+      name: "eric",
+      paises: paises
+    }
+  }
 };
 </script>
 

@@ -15,7 +15,10 @@
 </template>
 
 <script>
-export default {};
+import Default from "@/layouts/default.vue";
+export default {
+  template: Default,
+};
 </script>
 
 <style>
